@@ -6,12 +6,12 @@ Este proyecto implementa un **chatbot con RAG (Retrieval-Augmented Generation)**
 Estructura del proyecto:
 tp1/
 │
-├── upload_pdf.py       ← Carga el CV, aplica chunking, embeddings de HF y sube los vectores a Pinecone
-├── chat_rag.py         ← Chatbot RAG con Streamlit para interfaz web
-├── environment.yml     ← Creacion del entorno con Conda
+├── upload_pdf.py     ← Carga el CV, aplica chunking, embeddings de HF y sube los vectores a Pinecone
+├── chat_rag.py       ← Chatbot RAG con Streamlit para interfaz web
+├── environment.yml   ← Creacion del entorno con Conda
 └── README.md           
 ```
-
+https://github.com/user-attachments/assets/cd8f36f3-61b5-4241-b401-5a35e3ee1343
 El sistema funciona de la siguiente forma:
 
 1. Se sube en formato pdf el **CV** de una persona.
@@ -34,7 +34,7 @@ El sistema funciona de la siguiente forma:
 
 ---
 
-## Cómo correr el proyecto
+## Cómo utilizar este proyecto
 
 ### Prerrequisitos
 - Anaconda o miniconda
